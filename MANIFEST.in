@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include subk_addons *.css
+recursive-include subk_addons *.csv
+recursive-include subk_addons *.html
+recursive-include subk_addons *.ico
+recursive-include subk_addons *.js
+recursive-include subk_addons *.json
+recursive-include subk_addons *.md
+recursive-include subk_addons *.png
+recursive-include subk_addons *.py
+recursive-include subk_addons *.svg
+recursive-include subk_addons *.txt
+recursive-exclude subk_addons *.pyc
